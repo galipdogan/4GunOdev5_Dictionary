@@ -14,6 +14,13 @@ namespace _4GunOdev5_Dictionary
 
             foreach (var kvp in urunler)
                 Console.WriteLine("Anahtar: {0}, Değer: {1}", kvp.Key, kvp.Value);
+
+
+            MyDictionary<string, string> myDictionary = new MyDictionary<string, string>();
+            myDictionary.Add("Ayakkabı","Spor Ayakkabı,Günlük Ayakkabı,Kundura");
+
+            myDictionary.Listele();
+            
         }
     }
 }
